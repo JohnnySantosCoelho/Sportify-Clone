@@ -1,0 +1,42 @@
+@media screen and (max-width: 1015px) {
+        .offer__list-item {
+            grid-template-columns: 1fr 1fr;
+        }
+}
+
+.header__login .subscribe {
+    font-size: 12px !important;
+    padding: 10px !important;
+    margin-right: 5px !important;
+}
+
+@media screen and (win-width: 1016px)  and (max-width: 1140px) {
+    .header__search {
+        width: auto !important;
+        display: none;
+    }    
+}
+
+@media screen and (max-width: 375px) {
+    .playlist {
+        display: none;
+    }
+
+    .playlist-container {
+        width: 100%; /* Ocupa toda a largura disponivel */
+        height: auto; /* Altura automática, ajusta conforme o conteudo */
+    }
+
+    .sidebar {
+        width: 342px;
+    }
+    
+    .offer__list-item {
+        grid-template-columns: 1fr;
+    }
+
+
+    .offer__list-container {
+        overflow-y: visible;
+    }
+}
